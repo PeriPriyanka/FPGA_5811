@@ -13,19 +13,19 @@ void loop() {
   v=digitalRead(9);
   if((!u&&!v)||(!u&&v)||(u&&v)==1)
   {
-    digitalWrite(12,LOW);
+    digitalWrite(12,HIGH);
   }
   else
   {
-    digitalWrite(12,HIGH);
+    digitalWrite(12,LOW);
   }
   if(((!u)||v)==1)
   {
-    digitalWrite(11,LOW);
+    digitalWrite(11,HIGH);
   }
   else
   {
-    digitalWrite(11,HIGH);
+    digitalWrite(11,LOW);
   }
   if((!u&&!v)||(!u&&v)||(u&&v)==((!u)||v))
   {
