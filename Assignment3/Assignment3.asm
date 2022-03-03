@@ -6,7 +6,7 @@ ldi r17, 0b11110011 ; identifying input pins 2,3
 	in r17,PIND
 
 ldi r16, 0b00100000 ;identifying output pins 13
-out DDRD,r16		;declaring pins as output
+out DDRB,r16		;declaring pins as output
 lsr r17
 lsr r17
 mov r16, r17
