@@ -36,7 +36,7 @@ breq loop
 loop:
 ldi r16, 0b00100000
 out PORTB,r16
-;writing output to pins 2,3,4,5
+;writing output to pins 13
 
 Start:
 rjmp Start
